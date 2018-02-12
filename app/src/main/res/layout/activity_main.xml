@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="24dp"
+    android:paddingVertical="16dp"
+    tools:context="com.degree.abbylaura.conversionproject.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/convert_from_text"
+        android:textSize="30sp"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:id="@+id/amount_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="10dp"
+        android:text="1.0"/>
+
+    <Spinner
+        android:id="@+id/unit_type_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/amount_text_view" />
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/unit_type_spinner"
+        android:background="@color/colorAccent"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:rowCount="6">
+
+        <TextView
+            android:id="@+id/tsp_text_view"
+            android:text="@string/tsp_default_value"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            />
+
+        <TextView
+            android:id="@+id/cup_text_view"
+            android:text=".0208 cup"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_gravity="left|top"
+            />
+
+        <TextView
+            android:id="@+id/tbsp_text_view"
+            android:text=".3333 tbsp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            />
+
+        <TextView
+            android:id="@+id/oz_text_view"
+            android:text=".1666 oz"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_gravity="left|top"
+            />
+
+        <TextView
+            android:id="@+id/kg_text_view"
+            android:text=".0057 kg"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            />
+
+        <TextView
+            android:id="@+id/quart_text_view"
+            android:text=".0052 quart"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_gravity="left|top"
+            />
+
+        <TextView
+            android:id="@+id/gallon_text_view"
+            android:text=".0013 gallon"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            />
+
+        <TextView
+            android:id="@+id/pound_text_view"
+            android:text=".0125 pound"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_gravity="left|top"
+            />
+
+        <TextView
+            android:id="@+id/ml_text_view"
+            android:text="4.9289 ml"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            />
+
+        <TextView
+            android:id="@+id/litre_text_view"
+            android:text=".0049 litre"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_gravity="left|top"
+            />
+
+        <TextView
+            android:id="@+id/mg_text_view"
+            android:text="5687.5000 mg"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            />
+
+        <TextView
+            android:id="@+id/pint_text_view"
+            android:text=".0104 pint"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_gravity="left|top"
+            />
+
+
+    </GridLayout>
+
+</RelativeLayout>

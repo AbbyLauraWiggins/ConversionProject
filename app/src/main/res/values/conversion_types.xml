@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string-array name="conversion_types">
+            <item>tsp</item>
+            <item>tbsp</item>
+            <item>cup</item>
+            <item>oz</item>
+            <item>pint</item>
+            <item>gallon</item>
+            <item>pound</item>
+            <item>ml</item>
+            <item>litre</item>
+            <item>mg</item>
+            <item>kg</item>
+        </string-array>
+    </resources>
